@@ -14,6 +14,9 @@
     "url": "https://github.com/dalejung/choir.git"
   },
   "keywords": ["repl"],
+  "dependencies": {
+      "jsdom": ">= 1.5.0 < 1.5.1"
+    },
   "devDependencies": {
   }
 }
