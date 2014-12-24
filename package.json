@@ -1,0 +1,19 @@
+{
+  "name": "choir",
+  "version": "0.0.1",
+  "description": "An enhanced node REPL",
+  "author": "Dale Jung <dale@dalejung.com>",
+  "main": "./lib/choir.js",
+  "bin": {
+    "choir": "bin/cmd.js",
+    "choir-server": "bin/server.js",
+    "choir-client": "bin/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dalejung/choir.git"
+  },
+  "keywords": ["repl"],
+  "devDependencies": {
+  }
+}
