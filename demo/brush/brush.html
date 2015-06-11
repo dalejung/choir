@@ -88,7 +88,7 @@ var context = svg.append("g")
 // TODO fix this to grab from local csv. 
 // issue right now is that we're grabbing d3 from script and thus
 // choir_premod.js isn't changing the right d3.csv
-d3.csv("https://raw.githubusercontent.com/dalejung/choir/master/demo/brush/sp500.csv", function(error, data) {
+d3.csv("http://dalejung.com/sp500.csv", function(error, data) {
   data.forEach(function(d) {
     d.date = parseDate(d.date);
     d.price = +d.price;
