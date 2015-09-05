@@ -3,11 +3,5 @@
 var SOCKET_PORT = 1337;
 var HTTP_PORT = 8889;
 
-var server = require('choir').Server(true);
-server.listen(SOCKET_PORT);
-server.http_server.listen(HTTP_PORT);
-
-// attach client
-var Client = require('choir').Client;
-
-Client(SOCKET_PORT);
+var repl_start = require('choir').repl_start
+repl_start(process.stdin, process.stdout)
