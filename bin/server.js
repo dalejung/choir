@@ -3,6 +3,6 @@
 var SOCKET_PORT = 1337;
 var HTTP_PORT = 8889;
 
-var server = require('choir').Server(true);
-server.listen(SOCKET_PORT);
-server.http_server.listen(HTTP_PORT);
+var server = require('choir').Server();
+server.start_repl(SOCKET_PORT);
+server.start_http(HTTP_PORT);
