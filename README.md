@@ -3,6 +3,8 @@ Interactive Node.js
 
 Modified REPL to behave like `ipython`. 
 
+## Currently only works with node v4
+
 ## Run Magic
 
 ```
