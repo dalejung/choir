@@ -1,6 +1,6 @@
 {
   "name": "choir",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "An enhanced node REPL",
   "author": "Dale Jung <dale@dalejung.com>",
   "main": "lib/choir.js",
